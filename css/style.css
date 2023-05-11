@@ -74,7 +74,6 @@ header {
   display: flex;
   width: 90%;
   height: 70%;
-  
   justify-content: center;
   align-items: center;
 }
@@ -85,7 +84,7 @@ header {
   height: 100%;
   background: black;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   flex-wrap: wrap;
   border-radius: 10px;
@@ -219,4 +218,38 @@ header {
   padding-top: 5%;
   font-family: "Source Sans Pro", sans-serif;
   color: #355071;
+  font-size: 20px;
  }
+
+ .main_about_us__title {
+  font-size: 30px;
+ }
+
+ .features_content {
+  display: flex;
+  width: 80%;
+  height: 75%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ }
+ 
+ .features__column {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+
+.features__all {
+  margin: 0 auto;
+  display:flex;
+  width: 100%;
+  height: 40vh; 
+}
+
