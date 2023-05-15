@@ -14,6 +14,7 @@ header {
   box-sizing: border-box;
   list-style: none;
   /* outline: 1px solid red; */
+  scroll-behavior: smooth;
 }
 
 
@@ -45,6 +46,14 @@ header {
   text-align: center;
   /* padding-top: 10px;
   padding-right: 40px; */
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #344e6f;
+}
+
+.navbar__text a{
+  text-decoration: none;
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
@@ -277,13 +286,13 @@ header {
 
 
 
-.navbar__text p:hover {
+.navbar__text a:hover {
   filter: brightness(80%);
   /* color: rgba(52, 78, 111, 0.8); */
   cursor: pointer;
 }
 
-.navbar__text p::after {
+.navbar__text a::after {
   display: block;
   content: "";
   border-top: 2px solid black;
@@ -291,6 +300,22 @@ header {
   transition: transform 250ms ease-in-out;
 }
 
-.navbar__text p:hover:after {
+.navbar__text a:hover:after {
   transform: scaleX(1)
+}
+
+.contact_us {
+  background-color: #ffffff;
+  width:100%;
+  height: 100vh;
+}
+
+.footer_block {
+  width:100%;
+  height: 9vh;
+  background-color:#365071;
+  text-align: center;
+  color:#b5bb21;
+  font-family:"Source Sans Pro", sans-serif;
+
 }
